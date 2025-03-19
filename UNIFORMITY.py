@@ -9,8 +9,8 @@ import math
 import pandas as pd
 
 # Parameters (modify as needed)
-area_threshold = 1000000  # Minimum area for an object to be kept
-width_step = 100  # Step for drawing vertical perpendiculars
+area_threshold =   # Minimum area for an object to be kept
+width_step =   # Step for drawing vertical perpendiculars
 
 # Load images
 def load_images_from_directory(directory_path):
@@ -127,7 +127,7 @@ def calculate_perpendicular_length(start, end):
     return np.sqrt((end[0] - start[0]) ** 2 + (end[1] - start[1]) ** 2)
 
 def save_figure(fig, image_name):
-    output_dir = "Y:/PROJECTS/OPUS25/DATA_CODE_RESULTS/OPUS25_UNIFORMITY_LINE/RESULTS/IMAGES"  # Change this to your desired path
+    output_dir = "path/to/output/image/directory"  # Change this to your desired path
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)  # Create the directory if it doesn't exist
     
@@ -264,7 +264,7 @@ def save_figure_without_sliders(fig, image_name):
                 ax.set_facecolor('white')  # Ensure no background color from other axes
     
     # Save the figure without sliders
-    output_dir = "Y:/PROJECTS/OPUS25/DATA_CODE_RESULTS/OPUS25_UNIFORMITY_LINE/RESULTS/IMAGES"  # Change this to your desired path
+    output_dir = "path/to/output/image/directory"  # Change this to your desired path
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)  # Create the directory if it doesn't exist
     
@@ -276,7 +276,7 @@ def save_figure_without_sliders(fig, image_name):
 
 def main():
     global image, ax, slider_lower, slider_upper, fig, average_angle, image_filename
-    directory_path = 'Y:/PROJECTS/OPUS25/DATA_CODE_RESULTS/OPUS25_UNIFORMITY_LINE/DATA/TEST/DATA/'
+    directory_path = 'path/to/input/image/directory'
     image_files, images = load_images_from_directory(directory_path)
     
     if not images:
