@@ -19,18 +19,22 @@ You can install the required libraries by running:
 ### Main Functionality:
 - Edge detection and morphological processing: the script performs Gaussian blur and edge detection on the input images. The edges are processed using morphological closing to enhance the object boundaries (Fig. 1-2).
 - Object filtering: the code filters objects based on their area and visualizes the result by drawing contours around objects that exceed a defined area threshold.
-![Figure_1](https://github.com/user-attachments/assets/00195e51-0f57-4c7b-aa77-9ad16cce6815)
+
+![fig_1](https://github.com/user-attachments/assets/a174ff84-c8fe-4a8b-a473-d2f78ad16cd8)
 Figure 1. Raw data image.
-![Figure_2](https://github.com/user-attachments/assets/73b9311d-7291-4bcf-beaa-e9cf64aa523d)
+
+![fig_2](https://github.com/user-attachments/assets/71189419-e2e7-4b68-b09d-a5fd3b43a2ff)
 Figure 2. Morphologically closed object.
 
 - Midpoint line calculation: the midpoints between the upper and lower boundaries of each column in the filtered image are calculated. A smooth spline is fitted through these midpoints to create a red midpoint line (Fig. 3).
-![Figure_3](https://github.com/user-attachments/assets/327d5cc2-9993-4d2d-a30f-6f32e3c64b66)
+
+![fig_4](https://github.com/user-attachments/assets/fa9201f8-c958-44fd-9eaa-5b85db803697)
 Figure 3. Object with a midpoint line.
 
 - Perpendiculars and angles: tilted perpendicular lines are drawn from each midpoint. The direction and length of the perpendiculars are calculated based on the average angle of previous midpoints (Fig.4). The lengths of these perpendiculars are saved in an Excel file for analysis.
-![Figure_5](https://github.com/user-attachments/assets/62339857-0b02-4d27-893e-ecbf2f62b17f)
-Figure 3. Perpendiculars detected.
+
+![fig_5](https://github.com/user-attachments/assets/770017b2-221f-41d5-8ba5-7ae9db60d2c3)
+Figure 4. Perpendiculars detected.
 
 - Interactive sliders: two sliders allow users to adjust the lower and upper thresholds for edge detection in real time. The plot updates interactively as the sliders are adjusted
 
