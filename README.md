@@ -17,16 +17,19 @@ You can install the required libraries by running:
 
 ## Description
 ### Main Functionality:
-- Edge detection and morphological processing: the script performs Gaussian blur and edge detection on the input images. The edges are processed using morphological closing to enhance the object boundaries (Fig. 1-2).
+- Edge detection and morphological processing: the script performs Gaussian blur and edge detection on the input images. The edges are processed using morphological closing to enhance the object boundaries (Fig. 1-3).
 - Object filtering: the code filters objects based on their area and visualizes the result by drawing contours around objects that exceed a defined area threshold.
 
 ![fig_1](https://github.com/user-attachments/assets/a174ff84-c8fe-4a8b-a473-d2f78ad16cd8)
 Figure 1. Raw data image.
 
-![fig_2](https://github.com/user-attachments/assets/71189419-e2e7-4b68-b09d-a5fd3b43a2ff)
-Figure 2. Morphologically closed object.
+![fig_3](https://github.com/user-attachments/assets/53f96bfa-582f-44f0-9302-d5b9133dfd0e)
+Figure 2. Object boundaries detected.
 
-- Midpoint line calculation: the midpoints between the upper and lower boundaries of each column in the filtered image are calculated. A smooth spline is fitted through these midpoints to create a red midpoint line (Fig. 3).
+![fig_2](https://github.com/user-attachments/assets/71189419-e2e7-4b68-b09d-a5fd3b43a2ff)
+Figure 3. Morphologically closed object.
+
+- Midpoint line calculation: the midpoints between the upper and lower boundaries of each column in the filtered image are calculated. A smooth spline is fitted through these midpoints to create a midpoint line (Fig. 3).
 
 ![fig_4](https://github.com/user-attachments/assets/fa9201f8-c958-44fd-9eaa-5b85db803697)
 Figure 3. Object with a midpoint line.
