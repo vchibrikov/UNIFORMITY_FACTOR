@@ -34,7 +34,7 @@ Figure 3. Morphologically closed object.
 ![fig_4](https://github.com/user-attachments/assets/fa9201f8-c958-44fd-9eaa-5b85db803697)
 Figure 3. Object with a midpoint line.
 
-- Perpendiculars and angles: tilted perpendicular lines are drawn from each midpoint. The direction and length of the perpendiculars are calculated based on the average angle of previous midpoints (Fig.4). The lengths of these perpendiculars are saved in an Excel file for analysis.
+- Perpendiculars and angles: tilted perpendicular lines are drawn from each midpoint. The direction and length of the perpendiculars are calculated based on the average angle of n surrounding midpoints (Fig.4). The lengths of these perpendiculars are saved in an Excel file for analysis.
 
 ![fig_5](https://github.com/user-attachments/assets/770017b2-221f-41d5-8ba5-7ae9db60d2c3)
 Figure 4. Perpendiculars detected.
