@@ -1,4 +1,4 @@
-# UNIFORMITY.py
+# UNIFORMITY_FACTOR.py
 - Current repository provides an image processing script that performs edge detection, object filtering, and calculates the lengths of perpendiculars drawn from midpoints of object boundaries in images. The program can also plot the filtered objects, midpoint lines, and tilted perpendiculars, with interactive sliders to adjust threshold values for edge detection.
 - Repository is created for the project entitled "Printing of 3D biomaterialsinspired by plant cell wall", supported by the National Science Centre, Poland (grant nr - 2023/49/B/NZ9/02979).
 - Research methodology is an automative approach used in paper: Merli M, Sardelli L, Baranzini N, Grimaldi A, Jacchetti E, Raimondi MT, Briatico-Vangosa F, Petrini P and Tunesi M (2022), Pectin-based bioinks for 3D models of neural tissue produced by a pH-controlled kinetics. Front. Bioeng. Biotechnol. 10:1032542. doi: 10.3389/fbioe.2022.1032542
