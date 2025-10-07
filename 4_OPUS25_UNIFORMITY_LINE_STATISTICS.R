@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 #
 # Script: Line Uniformity and Width Analysis
-# Author: [Your Name]
+# Author: Vadym Chibrikov
 # Date: 2025-10-07
 #
 # Description: This script analyzes 3D printed line data from Excel files
